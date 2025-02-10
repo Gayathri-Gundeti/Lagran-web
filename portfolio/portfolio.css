@@ -1,0 +1,669 @@
+/* *{
+    border: 1px solid red;
+} */
+.banner-container{
+    background: url("../images/portfolio/banner.png");
+    background-size: cover;
+    height: auto;  
+    padding: 0px 50px;
+}
+.banner-subcontainer{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+
+}
+.banner-content{
+    margin-top: 50px;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 48px;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.banner-subtitle{
+    color: #F0F0F0;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.banner-image img{
+    float: right;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.talkBtn{
+    background-color: #F0F0F0;
+    color: #E77A11;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #E77A11;
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin-top: 20px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.talkBtn:hover{
+    background-color: #E77A11;
+    color: #F0F0F0;
+}
+.feel-text{
+    color: #E9ECF0;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+.banner-icons{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.icon-container{
+    position: relative;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    cursor: pointer;
+    color: #E9ECF0;
+}
+.icon-text{
+    transition: 0.5s;
+}
+.icon{
+   font-size: 30px;
+   transition: 0.5s;
+}
+.icon-container:hover .icon{
+    transform: translateY(-30px);
+    transition: 0.5s;
+
+
+}
+.icon-container:hover .icon-text{
+    opacity: 0;
+}
+@media screen and (max-width:1090px){
+    .banner-title{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:992px){
+   
+    .banner-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+    }
+   
+    .talkBtnContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;    
+    }
+ 
+  
+}
+@media screen and (max-width:876px){
+    .banner-title{
+        font-size: 35px;
+      
+    }
+    .banner-subtitle{
+        font-size: 18px; 
+    }
+
+}
+@media screen and (max-width:776px){
+    .banner-subcontainer{
+        display: grid;
+        grid-template-columns: 12fr;
+    
+    }
+}
+@media screen and (max-width:656px){
+    .banner-container{
+        background: url("../images/portfolio/banner.png");
+        background-size: cover;
+        height: auto;  
+        padding: 0px 30px;
+    }
+    .banner-title{
+        font-size: 38px;
+      
+    }
+    .banner-subtitle{
+        font-size: 18px; 
+    }
+    .talkBtn{
+        font-size: 16px;
+        border-radius: 25px;
+        padding: 5px 15px;
+    }
+    .feel-text{
+        font-size: 18px;
+    }
+    .banner-icons{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width:550px){
+    .banner-icons{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        padding-bottom: 30px;
+    }
+    .icon-container{
+        margin-bottom: 30px;
+    }
+   
+    
+}
+@media screen and (max-width:476px){
+    .banner-title{
+        font-size: 30px;
+      
+    }
+    .banner-subtitle{
+        font-size: 16px; 
+    }
+    .feel-text{
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width:456px){
+    .banner-title{
+        font-size: 25px;
+        margin-bottom: 10px;
+      
+    }
+    .banner-subtitle{
+        font-size: 14px; 
+    }
+    .banner-container{
+        background: url("../images/portfolio/banner.png");
+        background-size: cover;
+        height: auto;  
+        padding: 0px 20px;
+    }
+    .talkBtn{
+        font-size: 14px;
+        border-radius: 25px;
+        padding: 5px 15px;
+    }
+    .feel-text{
+        font-size: 14px;
+    }
+    .icon-container{
+        
+        width: 120px;
+        height: 25px;
+        font-size: 14px;
+    }
+}
+/* project */
+.project-container{
+    margin-top: 50px;
+}
+.project-headings{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.project-Maintitle{
+    color: #666666;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.project-subtitle{
+    color: #858585;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.project-details{
+    margin-top: 60px;
+}
+.project-subcontainer{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 0px 80px;
+    margin-bottom: 40px;
+}
+
+.project-title{
+    margin-bottom: 30px;
+}
+.project-title a{
+    text-decoration: none;
+    color: #383838;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.project-logo{
+    width: 250px;
+    height: 100px;
+    margin-left: -10px;
+}
+.project-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.nathich-logo{
+    height: 100px;
+    margin-left: -40px;
+
+}
+.project-view{
+    font-size: 16px;
+    font-weight: 500;
+    color: #244568;
+    cursor: pointer;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 20px;
+
+}
+.project-view:hover{
+    background-color: #E77A11;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.project-app{
+    color: #244568;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.project-app:hover{
+    background-color: #E77A11;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.project-ImgNathich{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  
+
+}
+.project-ImgNathich img{
+ 
+    object-fit: cover;
+    width: 90%;
+    
+}
+.project-ImgCB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+.project-ImgCB img{
+  
+    object-fit: cover;
+    width: 90%;
+   
+}
+.project-ImgBhag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+.project-ImgBhag img{
+    object-fit: cover;
+    width: 90%;
+
+}
+
+@media screen and (max-width:876px){
+    .project-subcontainer{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        padding: 0px 60px;
+        margin-bottom: 40px;
+    }
+    .project-logo{
+        width: 250px;
+        height: 50px;
+        margin-left: -30px;
+    }
+    .project-logo img{
+        width: 100%;
+        height: 90%;
+        object-fit: contain;
+    }
+    .nathich-logo{
+        height: 100px;
+        margin-left: -40px;
+
+    }
+    .project-title a{
+        font-size: 30px;
+        
+    }
+   
+   
+
+}
+@media screen and (max-width:756px){
+    .project-subcontainer{
+        display: grid;
+        grid-template-columns: 12fr;
+        padding: 0px 60px;
+        margin-bottom: 40px;
+    }
+    .project-ImgCB{
+        margin-bottom: 20px;
+    }
+    .nathich-content{
+        order: 2;
+    }
+    .project-ImgNathich{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .bhagva-content{
+        order: 2;
+    }
+    .project-ImgBhag{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .projectBtncont{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .project-view{
+        font-size: 16px;
+        margin-bottom: 0px;
+    
+    }
+    .project-subcontainer{
+        text-align: center;
+    }
+    .project-logo{
+       margin-bottom: 10px;
+       
+    }
+    .nathich-logo{
+        margin-bottom: -5px;
+    }
+    
+
+}
+@media screen and (max-width:656px){
+    .project-headings{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .project-subcontainer{
+        padding: 0px 30px;
+    }
+    .project-Maintitle{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .project-subtitle{
+        font-size: 16px;
+    }
+    .project-view{
+        font-size: 16px;
+       
+    
+    }
+    .project-view:hover{
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .project-app{
+        font-size: 16px;
+    
+    }
+    .project-app:hover{
+        padding: 5px 10px;
+        border-radius: 5px;
+    
+    }
+}
+@media screen and (max-width:456px){
+    .project-Maintitle{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .project-subtitle{
+        font-size: 14px;
+    }
+    .project-subcontainer{
+        padding: 0px 20px;
+    }
+    .project-title a{
+        font-size: 25px;
+        
+    }
+    .project-logo{
+        width: 250px;
+        height: 40px;
+        margin-left: -30px;
+    }
+    .project-logo img{
+        width: 100%;
+        height: 90%;
+        object-fit: contain;
+    }
+    .nathich-logo{
+        height: 100px;
+        margin-left: -40px;
+
+    }
+    .cb-logo{
+        margin-left: -50px;
+    }
+    .project-view{
+        font-size: 14px;
+       
+    
+    }
+    .project-app{
+        font-size: 14px;
+    
+    }
+  
+}
+/* pagination */
+.pagination-container{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.pagination {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adds space between each number */
+    justify-content: center;
+}
+
+.page-item {
+    display: inline-block;
+    cursor: pointer;
+   
+}
+
+.page-link {
+    background-color: #E9ECF0;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #244568;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-item.active .page-link {
+    background-color: #244568;
+    color: white;
+}
+
+.page-link:hover {
+    background-color: #244568;
+    color: white;
+}
+
+/* start your project */
+.start-container{
+    margin-top: 50px;
+    background-color: #f5f6f8;
+  
+}
+.start-subcontainer{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 30px;
+    padding: 50px 80px;
+}
+.start-title{
+    font-size: 40px;
+    color: #000000;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 10px;
+
+}
+.start-subtitle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #858585;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.startImg{
+    width: 100%;
+    height: 90%;
+}
+.startImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.btnStart{
+    background-color: #E77A11;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    font-weight: 400;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.btnStart:hover{
+    background-color: #D26F0F;
+}
+@media screen and (max-width:876px){
+    .start-title{
+        font-size: 35px;
+    
+    }
+
+}
+@media screen and (max-width:776px){
+    .start-subcontainer{
+        display: grid;
+        grid-template-columns: 12fr
+    }
+    .btnStartcont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width:656px){
+    .start-subcontainer{
+        padding: 50px 30px;
+    }
+    .btnStart{
+        padding: 6px 15px;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:456px){
+    .start-title{
+        font-size: 25px;
+    
+    }
+    .start-subtitle{
+        font-size: 14px;
+    }
+    .btnStart{
+        padding: 6px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+}
