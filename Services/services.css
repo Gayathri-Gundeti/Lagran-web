@@ -1,0 +1,732 @@
+.service-banner{
+    background-image: linear-gradient(to bottom right, #000328, #00458E);
+    background-size: cover;
+    height: auto;
+    padding: 80px;
+}
+.service-content{
+    text-align: center;
+
+}
+.service-content div{
+    margin-bottom: 20px;
+
+}
+.serviceBanner-title{
+    color:  #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+.serviceBanner-subtitle{
+    color: #F0F0F0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+.btnTalk{
+    color: #E77A11;
+    background-color: #F0F0F0;
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btnTalk:hover{
+    background-color: #E77A11;
+    color: #FFFFFF;
+}
+
+.serviceBanner-grid{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.service-number{
+    color: #E77A11;
+    font-size: 39px;
+    font-weight: 700;
+    font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 30px;
+  text-align: center;
+}
+.service-text{
+    color:  #E9ECF0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+@media screen and (max-width:756px){
+  .service-banner{
+    padding: 50px;
+  }
+  .serviceBanner-grid{
+    display: grid;
+    grid-template-columns: 12fr;
+}
+ 
+
+}
+@media screen and (max-width:576px){
+  .service-banner{
+    padding: 30px;
+  }
+  .serviceBanner-title{
+    font-size: 40px;
+  }
+  .serviceBanner-subtitle{
+    font-size: 18px;
+  }
+  .btnTalk{
+    font-size: 18px;
+    padding: 6px 15px;
+    border-radius: 20px;
+  }
+  .service-number{
+    font-size: 30px;
+  }
+  .service-text{
+
+    font-size: 18px;
+  }
+
+
+}
+@media screen and (max-width:456px){
+  .service-banner{
+    padding: 20px;
+  }
+  .serviceBanner-title{
+    font-size: 35px;
+  }
+  .serviceBanner-subtitle{
+    font-size: 16px;
+  }
+  .btnTalk{
+    font-size: 16px;
+    padding: 6px 15px;
+    border-radius: 20px;
+  }
+  .service-number{
+    font-size: 25px;
+  }
+  .service-text{
+
+    font-size: 16px;
+  }
+
+}
+
+/* Explore Our Expertise */
+.explore-container{
+    margin-top: 50px;
+    padding: 0px 80px;
+}
+.explore-container div{
+    margin-bottom: 10px;
+}
+.explore-title{
+    color: #666666;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+    text-align: center;
+}
+.explore-subtitle{
+    color:  #244568;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+
+}
+.explore-desc{
+    color: #858585;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+/* service images */
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  
+
+  .swiper-slide {
+    text-align: center;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Image Accordions General */
+  .container-general {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 100%;
+   
+  }
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    /* display: grid;
+    grid-template-columns: repeat(4,3fr); */
+    width: 100%;
+    height: 80vh;
+    gap: 50px;
+  
+  }
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.8s ease;
+    &:hover {
+      flex: 2;
+    }
+  }
+  
+  /* Image Accordions Effect 1 */
+  .wrap-effect-1 {
+    .item {
+      &:first-of-type {
+        background-image: url('../images/services/exploreImg1.png');
+      }
+      &:nth-of-type(2) {
+        background-image: url('../images/services/exploreImg2.png');
+      }
+      &:nth-of-type(3) {
+        background-image: url('../images/services/exploreImg3.png');
+      }
+      &:last-of-type {
+        background-image: url('../images/services/exploreImg4.png');
+      }
+    }
+  }
+ 
+  .wrap-effect-1 {
+    .item {
+      position: relative;
+      overflow: hidden; 
+    }
+  
+    .item::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); 
+      transition: background 0.5s ease;
+    }
+  
+    .item:hover::before {
+      background: rgba(0, 0, 0, 0.5); 
+    }
+    .item-content {
+      color: white;
+      font-size: 20px;
+      display: none;
+      position: absolute;
+      top: 5%;  
+      left: 5%;  
+      width: 80%; 
+      text-align: left; /* Ensure text aligns to the left */
+      height:80%;
+      overflow: auto;
+      scrollbar-width: none;
+      z-index: 2;
+    }
+    
+    
+    .item-content-title{
+      font-size: 24px;
+      font-weight: 600;
+      color: #FFFFFF;
+      font-family: "Jost", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+    .item-content-desc{
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "Jost", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+ .item-content-list li{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ }
+    .item:hover .item-content {
+      display: block;
+    }
+  }
+  .item{
+    position: relative;
+  }
+  .item1Btn::before{
+    content: "Digital Marketing";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background-color:  #37322F;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+  }
+  .item:hover .item1Btn::before{
+    content: "Know more";
+
+  }
+  .item2Btn::before{
+    content: "Tech Solutions";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background-color:  #1E1C1C;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+  }
+  .item:hover .item2Btn::before{
+    content: "Know more";
+
+  }
+  .item3Btn::before{
+    content: "Designing";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background-color:  #04270E;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+  }
+  .item:hover .item3Btn::before{
+    content: "Know more";
+
+  }
+  .item4Btn::before{
+    content: "Staff Solutions";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background-color:  #774418;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+  }
+  .item:hover .item4Btn::before{
+    content: "Know more";
+
+  }
+  @media screen and (max-width:992px){
+    .container-general {
+      padding: 75px 0;
+      margin: 0 auto;
+      width: 100%;
+     
+    }
+    .gallery-wrap {
+      /* display: flex;
+      flex-direction: row; */
+      display: grid;
+      grid-template-columns: 6fr 6fr;
+      width: 100%;
+      height: 150vh;
+      gap: 30px;
+    
+    }
+    .item {
+      flex: 1;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      transition: all 0.8s ease;
+      &:hover {
+        flex: 2;
+      }
+    }
+    .item-content {
+      font-size: 20px;
+      text-align: left; /* Ensure text aligns to the left */
+      height:70% !important;
+     
+    }
+    
+  
+  }
+  @media screen and (max-width:756px){
+    .explore-container{
+      margin-top: 50px;
+      padding: 0px 50px;
+  }
+
+  }
+  @media screen and (max-width:576px){
+    .gallery-wrap {
+      /* display: flex;
+      flex-direction: row; */
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+      height: 300vh;
+      gap: 50px;
+    
+    }
+    .item-content {
+      font-size: 20px;
+      text-align: left; /* Ensure text aligns to the left */
+      height:75% !important;
+     
+    }
+    .item1Btn::before{
+      font-size: 20px;
+    }
+    .ite2Btn::before{
+      font-size: 20px;
+    }
+    .item3Btn::before{
+      font-size: 20px;
+    }
+    .item4Btn::before{
+      font-size: 20px;
+    }
+  
+   
+    .explore-container{
+      margin-top: 50px;
+      padding: 0px 50px;
+  }
+ 
+  .explore-title{
+      font-size: 35px;
+
+  }
+  .explore-subtitle{
+      font-size: 20px;
+  
+  }
+  .explore-desc{
+      font-size: 16px;
+
+  }
+  .container-general {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 100%;
+   
+  }
+  }
+  @media screen and (max-width:456px){
+    .gallery-wrap {
+      /* display: flex;
+      flex-direction: row; */
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+      height: 220vh;
+      gap: 50px;
+    
+    }
+    .item-content {
+      font-size: 20px;
+      text-align: left; /* Ensure text aligns to the left */
+      height:70% !important;
+     
+    }
+    .item1Btn::before{
+      font-size: 16px;
+    }
+    .item2Btn::before{
+      font-size: 16px;
+    }
+    .item3Btn::before{
+      font-size: 16px;
+    }
+    .item4Btn::before{
+      font-size: 16px;
+    }
+
+    .explore-container{
+      margin-top: 50px;
+      padding: 0px 20px;
+  }
+ 
+  .explore-title{
+      font-size: 30px;
+
+  }
+  .explore-subtitle{
+      font-size: 18px;
+  
+  }
+  .explore-desc{
+      font-size: 14px;
+
+  }
+  .container-general {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 100%;
+   
+  }
+
+  }
+  
+  /* contact */
+  .contact-container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 0px;
+    padding: 0px 80px;
+    padding-bottom: 50px;
+    gap: 50px;
+    
+  }
+  .contact-left{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+  }
+  .contact-right{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .contact-left div {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  .build-text {
+    color: #244568;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: justify;
+  }
+  .build-desc {
+    color: #506a86;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .contact-details {
+    color: #244568;
+    text-align: justify;
+  }
+
+  
+  .input-part{
+    border-bottom: 1px solid #858585;
+    padding-top: 10px;
+  
+  }
+  .label-name{
+    color: #383838;
+    font-size: 14px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .input-part input {
+    border: none;
+    color: #858585;
+    padding-bottom: 10px;
+    outline: none;
+  }
+  
+  .input-part input::placeholder{
+    color: #858585;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .input-part span {
+    color: #383838;
+  }
+  
+  .form-container{
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 3px #00000017;
+    width: 70%;
+    font-family: jost;
+    src: url(../Font/Jost-Italic-VariableFont_wght.ttf);
+  }
+  
+  
+  .form-container div {
+    margin-bottom: 20px;
+  }
+  .form-title {
+    color: #506a86;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .formbtn {
+    background-color: #e77a11;
+    color: #f0f0f0;
+    width: 100%;
+  }
+  .formbtn:hover {
+    background-color: #d26f0f;
+    color: #f0f0f0;
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1200px){
+    .form-container{
+      width: 100%;
+    }
+  
+  
+   }
+  @media screen and (max-width:1024px){
+    .contact-container{
+      display: grid;
+      grid-template-columns: 12fr;
+      
+    }
+    .contact-right{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+    .contact-left{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+  }
+  
+  }
+  @media screen and (max-width:992px){
+    .contact-container{
+      display: grid;
+      grid-template-columns: 12fr;
+      
+    }
+    .form-container{
+      width: 70%;
+      margin-top: 0px;
+    }
+    .contact-left{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+  }
+    
+  }
+  @media screen and (max-width:756px){
+    .form-container{
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width:576px){
+    .form-container{
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width:520px){
+    .build-text{
+      font-size: 28px;
+    }
+  
+  }
+  @media screen and (max-width:475px){
+    .contact-container {
+      display: grid;
+      grid-template-columns:12fr;
+      margin-top: 0px;
+      padding: 30px;
+    }
+    .build-text{
+      font-size: 25px;
+    }
+    .build-desc{
+      font-size: 16px;
+    } 
+    .contact-details{
+      font-size: 16px;
+    }
+    .form-title{
+      font-size: 20px;
+    }
+    .contact-right{
+      margin-top: -50px;
+    }
+    .formbtn {
+      font-size: 13px ;
+    }
+  }
+
+  

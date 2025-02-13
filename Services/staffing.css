@@ -1,0 +1,553 @@
+.staff-banner{
+    background-image: url('../images/services/staffing-service/staff-banner.png');
+    background-size: cover;
+    height: 90vh;
+    padding:  80px 50px;
+    position:relative;
+}
+.staffBanner-content{
+    width: 50%;
+    position: absolute;
+    top: 25%;
+
+    
+}
+.staffBanner-content div{
+    margin-bottom: 20px;
+}
+.staffBanner-title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+     font-style: normal;
+}
+.staffBanner-subtitle{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+   font-style: normal;
+}
+.btnGet{
+    background-color:  #E77A11;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.btnGet:hover{
+    background-color: #D26F0F;
+}
+@media screen and (max-width:876px){
+  .staffBanner-content{
+    width: 80%;
+    
+}
+}
+@media screen and (max-width:756px){
+  .staff-banner{
+    padding:  50px;
+   
+}
+
+}
+@media screen and (max-width:576px){
+ 
+  .staff-banner{
+    padding:  30px;
+    height: 70vh;
+   
+}
+  .staffBanner-title{
+    font-size: 30px;
+}
+.staffBanner-subtitle{
+    font-size: 20px;
+
+}
+.btnGet{
+  padding: 8px 15px;
+  border-radius: 18px;
+  font-size: 18px;
+}
+
+}
+
+@media screen and (max-width:456px){
+  .staff-banner{
+    padding:  30px;
+   
+}
+ 
+  .staffBanner-title{
+    font-size: 25px;
+}
+.staffBanner-subtitle{
+    font-size: 18px;
+
+}
+.btnGet{
+  padding: 8px 15px;
+  border-radius: 18px;
+  font-size: 16px;
+}
+
+}
+
+/* staff cards */
+.staff-container{
+    padding: 0px 80px;
+    margin-top: 50px;
+}
+.staff-title{
+    color:  #666666;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.staff-desc{
+    color:   #858585;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+.staff-container div{
+    margin-bottom: 20px;
+}
+.staff-card{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #ebe8e8;
+    width: 100%;
+    height:200px;
+    overflow: auto;
+    scrollbar-width: none;
+
+}
+.staff-card:hover{
+    
+    background-color:  #244568;
+
+}
+.staff-card:hover .staffcard-text{
+    color: #FFFFFF;
+
+}
+.staff-cards-part{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    gap: 20px;
+    width: 100%;
+    margin: auto ;
+    margin-top: 50px;
+   justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.staffcard-text{
+    color:  #666666;
+    font-size:  20px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 15px;
+
+}
+@media screen and (max-width:1024px){
+  .staff-card:hover{
+    
+    background-color: #FFFFFF;
+
+}
+.staff-card:hover .staffcard-text{
+  color:  #666666;
+
+}
+}
+@media screen and (max-width:992px){
+  .staff-cards-part{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 20px;
+}
+}
+@media screen and (max-width:756px){
+  .staff-container{
+    padding: 0px 50px;
+    margin-top: 50px;
+}
+}
+@media screen and (max-width:776px){
+  .staff-cards-part{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 20px;
+}
+}
+@media screen and (max-width:576px){
+  .staff-container{
+    padding: 0px 30px;
+    margin-top: 50px;
+}
+.staff-title{
+  font-size: 35px;
+}
+.staff-desc{
+ 
+  font-size: 18px;
+ 
+}
+.staff-text{
+  font-size:  18px;
+}
+}
+@media screen and (max-width:456px){
+  .staff-cards-part{
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 20px;
+}
+  .staff-card{
+    width: 100%;
+    height:100%;
+    
+
+}
+  .staff-title{
+    font-size: 25px;
+  }
+  .staff-desc{
+    font-size: 16px;
+   
+  }
+}
+
+/* explore other services */
+.explore-container{
+    margin-top: 50px;
+    padding: 50px 80px;
+    background-color: rgba(235, 235, 235, 0.509);
+}
+.explore-title{
+    color:  #666666;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.explore-cards-part{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    gap: 30px;
+}
+.explore-card{
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #FFFFFF;
+    
+
+}
+.exploreImg-cont{
+    width: 100%;
+    margin: auto;
+
+}
+.exploreImg-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.explorecardBtn{
+    border: none;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.explorecardBtn a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+@media screen and (max-width:992px){
+  .explore-container{
+    margin-top: 50px;
+    padding: 50px 50px;
+    background-color: rgba(235, 235, 235, 0.509);
+}
+}
+@media screen and (max-width:876px){
+  .explore-cards-part{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 30px;
+}
+
+}
+@media screen and (max-width:756px){
+  .explore-container{
+    margin-top: 50px;
+    padding: 30px 50px;
+ 
+}
+}
+@media screen and (max-width:656px){
+  .explore-cards-part{
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 30px;
+}
+
+}
+@media screen and (max-width:576px){
+  .explore-container{
+    margin-top: 50px;
+    padding: 30px 30px;
+ 
+}
+.explore-title{
+  font-size: 35px;
+}
+.explorecardBtn{
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width:456px){
+  .explore-title{
+    font-size: 25px;
+  }
+  .explorecardBtn{
+    font-size: 18px;
+  }
+}
+/* contact */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 0px;
+    padding: 50px 80px;
+    gap: 50px;
+  }
+  .contact-left{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+  }
+  .contact-right{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .contact-left div {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  .build-text {
+    color: #244568;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: justify;
+  }
+  .build-desc {
+    color: #506a86;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .contact-details {
+    color: #244568;
+    text-align: justify;
+  }
+
+  
+  .input-part{
+    border-bottom: 1px solid #858585;
+    padding-top: 10px;
+  
+  }
+  .label-name{
+    color: #383838;
+    font-size: 14px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .input-part input {
+    border: none;
+    color: #858585;
+    padding-bottom: 10px;
+    outline: none;
+  }
+  
+  .input-part input::placeholder{
+    color: #858585;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .input-part span {
+    color: #383838;
+  }
+  
+  .form-container{
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 3px #00000017;
+    width: 70%;
+    font-family: jost;
+    src: url(../Font/Jost-Italic-VariableFont_wght.ttf);
+  }
+  
+  
+  .form-container div {
+    margin-bottom: 20px;
+  }
+  .form-title {
+    color: #506a86;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .formbtn {
+    background-color: #e77a11;
+    color: #f0f0f0;
+    width: 100%;
+  }
+  .formbtn:hover {
+    background-color: #d26f0f;
+    color: #f0f0f0;
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1200px){
+    .form-container{
+      width: 100%;
+    }
+  
+  
+   }
+  @media screen and (max-width:1024px){
+    .contact-container{
+      display: grid;
+      grid-template-columns: 12fr;
+      padding: 50px 80px;
+      
+    }
+    .contact-right{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+    .contact-left{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+  }
+  
+  }
+  @media screen and (max-width:992px){
+    .contact-container{
+      display: grid;
+      grid-template-columns: 12fr;
+      
+    }
+    .form-container{
+      width: 70%;
+      margin-top: 0px;
+    }
+    .contact-left{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+  }
+    
+  }
+  @media screen and (max-width:756px){
+    .contact-container {
+      margin-top: 0px;
+      padding: 50px 50px; 
+    }
+    .form-container{
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width:576px){
+    .contact-container {
+      margin-top: 0px;
+      padding: 50px 30px; 
+    }
+    .form-container{
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width:520px){
+    .build-text{
+      font-size: 28px;
+    }
+  
+  }
+  @media screen and (max-width:475px){
+    .contact-container {
+      display: grid;
+      grid-template-columns:12fr;
+      margin-top: 0px;
+      padding: 30px;
+    }
+    .build-text{
+      font-size: 25px;
+    }
+    .build-desc{
+      font-size: 16px;
+    } 
+    .contact-details{
+      font-size: 16px;
+    }
+    .form-title{
+      font-size: 20px;
+    }
+    .contact-right{
+      margin-top: -50px;
+    }
+    .formbtn {
+      font-size: 13px ;
+    }
+  }
+  
+  
+  

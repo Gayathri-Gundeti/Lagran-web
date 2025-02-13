@@ -1,0 +1,234 @@
+.contact-banner {
+  background-image: linear-gradient(to bottom right, #9bafd9, #103783);
+  background-size: cover;
+  height: 200px;
+}
+.contact-banner{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+@media screen and (max-width:576px){
+    .contact-banner{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:456px){
+    .contact-banner{
+        font-size: 30px;
+    }
+}
+/* contact form*/
+.contact-container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 0px;
+    padding: 80px;
+    padding-bottom: 50px;
+    gap: 50px;
+    
+  }
+  .contact-left{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+  }
+  .contact-right{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .contact-left div {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  .build-text {
+    color: #244568;
+    font-size: 36px;
+    font-weight: 600;
+    /* text-align: justify; */
+  }
+  .build-desc {
+    color: #506a86;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .contact-details {
+    color: #244568;
+    text-align: justify;
+  }
+  
+  
+  .input-part{
+    border-bottom: 1px solid #858585;
+    padding-top: 10px;
+  
+  }
+  .label-name{
+    color: #383838;
+    font-size: 14px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .input-part input {
+    border: none;
+    color: #858585;
+    padding-bottom: 10px;
+    outline: none;
+  }
+  
+  .input-part input::placeholder{
+    color: #858585;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .input-part span {
+    color: #383838;
+  }
+  
+  .form-container{
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 3px #00000017;
+    width: 70%;
+    font-family: jost;
+    src: url(../Font/Jost-Italic-VariableFont_wght.ttf);
+  }
+  
+  
+  .form-container div {
+    margin-bottom: 20px;
+  }
+  .form-title {
+    color: #506a86;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .formbtn {
+    background-color: #e77a11;
+    color: #f0f0f0;
+    width: 100%;
+  }
+  .formbtn:hover {
+    background-color: #d26f0f;
+    color: #f0f0f0;
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1200px){
+    .form-container{
+      width: 100%;
+    }
+  
+  
+   }
+  @media screen and (max-width:1024px){
+    .contact-container{
+      display: grid;
+      grid-template-columns: 12fr;
+      padding: 50px 80px;
+      
+    }
+    .contact-right{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+    .contact-left{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+  }
+  
+  }
+  @media screen and (max-width:992px){
+    .contact-container{
+      display: grid;
+      grid-template-columns: 12fr;
+      
+    }
+    .form-container{
+      width: 70%;
+      margin-top: 0px;
+    }
+    .contact-left{
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+  }
+    
+  }
+  @media screen and (max-width:756px){
+    .contact-container {
+      margin-top: 0px;
+      padding: 50px 50px; 
+    }
+    .form-container{
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width:576px){
+    .contact-container {
+      margin-top: 0px;
+      padding: 50px 30px; 
+    }
+    .form-container{
+      width: 100%;
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width:520px){
+    .build-text{
+      font-size: 28px;
+    }
+  
+  }
+  @media screen and (max-width:475px){
+    .contact-container {
+      display: grid;
+      grid-template-columns:12fr;
+      margin-top: 0px;
+      padding: 30px;
+    }
+    .build-text{
+      font-size: 25px;
+    }
+    .build-desc{
+      font-size: 16px;
+    } 
+    .contact-details{
+      font-size: 16px;
+    }
+    .form-title{
+      font-size: 20px;
+    }
+    .contact-right{
+      margin-top: -50px;
+    }
+    .formbtn {
+      font-size: 13px ;
+    }
+  }
+  
+  
+  

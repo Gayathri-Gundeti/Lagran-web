@@ -308,6 +308,7 @@ nav {
 /* our clients */
 .client-section {
   background-color: #ffffff;
+  padding: 50px 0px;
 }
 .client-title {
   color: #666666;
@@ -319,6 +320,23 @@ nav {
   font-family: "Cormorant Garamond", serif;
   font-style: normal;
 }
+
+/* .client-content{
+  display: grid;
+  grid-template-columns: repeat(6,2fr);
+ 
+ 
+} */
+.clientImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.clientImg img{
+  width: 120px;
+  object-fit: contain;
+}
 @keyframes client {
   from {
     transform: translateX(0);
@@ -327,26 +345,25 @@ nav {
     transform: translateX(-50%);
   }
 }
-
-.clients-names {
-  display: flex;
-  overflow: hidden;
-}
-
-.scroll-content {
+.client-content{
   display: flex;
   padding-bottom: 30px;
   animation: client 15s linear infinite;
 }
 
-.scroll-content span {
-  margin-right: 10px;
+.client-content span {
+  margin-right: 30px;
 }
+/* .clients-names {
+  display: flex;
+  overflow: hidden;
+}
+
 
 .clients-names img {
   max-width: 200px;
   height: auto;
-}
+} */
 @media screen and (max-width:475px){
   .client-title{
     font-size: 30px;
@@ -868,7 +885,23 @@ ul {
 .portfolio-scroll:hover {
   animation-play-state: paused;
 }
+@keyframes client {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.scroll-content {
+  display: flex;
+  padding-bottom: 30px;
+  animation: client 15s linear infinite;
+}
 
+.scroll-content span {
+  margin-right: 10px;
+}
 @media screen and (max-width:992px){
   .portfolio-card {
     position: relative;
