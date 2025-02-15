@@ -1,8 +1,5 @@
-/* *{
-    border: 1px solid red;
-} */
 .banner-container{
-    background: url("../images/portfolio/banner.png");
+    background: url("../images/portfolio/MainPage/bannerBg.png");
     background-size: cover;
     height: auto;  
     padding: 0px 50px;
@@ -236,7 +233,8 @@
         font-size: 16px;
     }
 }
-/* project */
+/* explore expertise */
+
 .project-container{
     margin-top: 50px;
 }
@@ -260,21 +258,21 @@
     font-family: "Jost", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin-bottom: 25px;
 }
-.project-details{
-    margin-top: 60px;
-}
+
 .project-subcontainer{
     display: grid;
     grid-template-columns: 6fr 6fr;
     padding: 0px 80px;
     margin-bottom: 40px;
+    gap: 30px;
+}
+.project-content div{
+    margin-bottom: 20px;
 }
 
 .project-title{
-    margin-bottom: 30px;
-}
-.project-title a{
     text-decoration: none;
     color: #383838;
     font-size: 40px;
@@ -283,22 +281,33 @@
     font-style: normal;
     
 }
-.project-logo{
-    width: 250px;
-    height: 100px;
-    margin-left: -10px;
+.project-sub{
+    color: #383838;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.project-logo img{
+.project-desc{
+    color: #383838;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.techImg{
+    width: 80%;
+    height: 100%;
+  
+}
+.techImg img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
-.nathich-logo{
-    height: 100px;
-    margin-left: -40px;
-
-}
-.project-view{
+.project-view a{
     font-size: 16px;
     font-weight: 500;
     color: #244568;
@@ -309,71 +318,14 @@
     margin-bottom: 20px;
 
 }
-.project-view:hover{
+.project-view:hover a{
+    text-decoration: none;
     background-color: #E77A11;
     color: white;
     display: inline-block;
     padding: 5px 10px;
     border-radius: 5px;
 }
-.project-app{
-    color: #244568;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-
-}
-.project-app:hover{
-    background-color: #E77A11;
-    color: white;
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-
-}
-.project-ImgNathich{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-  
-
-}
-.project-ImgNathich img{
- 
-    object-fit: cover;
-    width: 90%;
-    
-}
-.project-ImgCB {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-
-}
-.project-ImgCB img{
-  
-    object-fit: cover;
-    width: 90%;
-   
-}
-.project-ImgBhag{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-
-}
-.project-ImgBhag img{
-    object-fit: cover;
-    width: 90%;
-
-}
-
 @media screen and (max-width:876px){
     .project-subcontainer{
         display: grid;
@@ -381,25 +333,7 @@
         padding: 0px 60px;
         margin-bottom: 40px;
     }
-    .project-logo{
-        width: 250px;
-        height: 50px;
-        margin-left: -30px;
-    }
-    .project-logo img{
-        width: 100%;
-        height: 90%;
-        object-fit: contain;
-    }
-    .nathich-logo{
-        height: 100px;
-        margin-left: -40px;
-
-    }
-    .project-title a{
-        font-size: 30px;
-        
-    }
+ 
    
    
 
@@ -411,30 +345,13 @@
         padding: 0px 60px;
         margin-bottom: 40px;
     }
-    .project-ImgCB{
-        margin-bottom: 20px;
-    }
-    .nathich-content{
-        order: 2;
-    }
-    .project-ImgNathich{
+    .project-content {
         order: 1;
-        margin-bottom: 20px;
     }
-    .bhagva-content{
-        order: 2;
+    .project-content div{
+        margin-bottom: 10px;
     }
-    .project-ImgBhag{
-        order: 1;
-        margin-bottom: 20px;
-    }
-    .projectBtncont{
-        display: flex;
-        gap: 40px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 30px;
-    }
+    
     .project-view{
         font-size: 16px;
         margin-bottom: 0px;
@@ -443,13 +360,16 @@
     .project-subcontainer{
         text-align: center;
     }
-    .project-logo{
-       margin-bottom: 10px;
-       
+    .techImg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
     }
-    .nathich-logo{
-        margin-bottom: -5px;
-    }
+  
+  
     
 
 }
@@ -478,19 +398,26 @@
         padding: 5px 10px;
         border-radius: 5px;
     }
-    .project-app{
+    .project-title{
+
+        font-size: 35px;
+    
+        
+    }
+    .project-sub{
+        font-size: 24px;
+
+    }
+    .project-desc{
+      
         font-size: 16px;
-    
     }
-    .project-app:hover{
-        padding: 5px 10px;
-        border-radius: 5px;
-    
-    }
+
+   
 }
 @media screen and (max-width:456px){
     .project-Maintitle{
-        font-size: 30px;
+        font-size: 28px;
         margin-bottom: 10px;
     }
     .project-subtitle{
@@ -499,180 +426,30 @@
     .project-subcontainer{
         padding: 0px 20px;
     }
-    .project-title a{
+    .project-title {
         font-size: 25px;
         
     }
-    .project-logo{
-        width: 250px;
-        height: 40px;
-        margin-left: -30px;
-    }
-    .project-logo img{
-        width: 100%;
-        height: 90%;
-        object-fit: contain;
-    }
-    .nathich-logo{
-        height: 100px;
-        margin-left: -40px;
+    .project-sub{
+        font-size: 18px;
 
     }
-    .cb-logo{
-        margin-left: -50px;
+    .project-desc{
+      
+        font-size: 14px;
     }
+   
     .project-view{
         font-size: 14px;
        
     
     }
-    .project-app{
-        font-size: 14px;
-    
-    }
   
-}
-/* pagination */
-.pagination-container{
-    margin-top: 40px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.pagination {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px; /* Adds space between each number */
-    justify-content: center;
-}
-
-.page-item {
-    display: inline-block;
-    cursor: pointer;
-   
-}
-
-.page-link {
-    background-color: #E9ECF0;
-    text-decoration: none;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
-    color: #244568;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.page-item.active .page-link {
-    background-color: #244568;
-    color: white;
-}
-
-.page-link:hover {
-    background-color: #244568;
-    color: white;
-}
-/* explore our work */
-.work-container{
-    background-color: #f5f6f8;
-    padding: 50px 80px;
-
-}
-.work-title{
-    color: #666666;
-    font-size: 40px;
-    font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
-  font-style: normal;
-  text-align: center;
-  margin-bottom: 30px;
-
-}
-.work-subcontainer{
-    display: grid;
-    grid-template-columns: repeat(3,4fr);
-    gap: 20px;
-}
-.work-card{
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}
-.work-cardImg{
-    width: 100%;
-    height: auto;
-
-}
-.work-cardImg img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-
-}
-.workBtn{
-    background-color: #E77A11;
-    
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    width: 100%;
-    margin-top: 20px;
- 
-}
-.workBtn a{
-    font-size: 22px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-@media screen and (max-width:956px){
-    .work-subcontainer{
-        display: grid;
-        grid-template-columns: repeat(2,6fr);
-        gap: 20px;
-    }
-
-}
-@media screen and (max-width:656px){
-    .work-subcontainer{
-        display: grid;
-        grid-template-columns: 12fr;
-        gap: 20px;
-    }
-    .work-container{
-        padding: 50px 30px;
-    
-    }
-    .work-title{
-        font-size: 35px;
-    }
-    .workBtn a{
-        font-size: 18px;
-   
-      
-    }
-
-
-}
-@media screen and (max-width:456px){
-    .work-title{
-        font-size: 25px;
-    }
   
-    .workBtn a{
-        font-size: 16px;
-   
-      
-    }
 }
 /* start your project */
 .start-container{
-    /* margin-top: 50px; */
+    margin-top: 50px;
     background-color: #f5f6f8;
   
 }
