@@ -1,173 +1,129 @@
-.service-banner{
-    background-image: linear-gradient(to bottom right, #000328, #00458E);
-    background-size: cover;
-    height: auto;
-    padding: 80px;
+.service-banner {
+  background-image: linear-gradient(to bottom right, #000328, #00458e);
+  background-size: cover;
+  height: auto;
+  padding: 80px;
 }
-.service-content{
-    text-align: center;
-
+.service-content {
+  text-align: center;
 }
-.service-content div{
-    margin-bottom: 20px;
-
+.service-content div {
+  margin-bottom: 20px;
 }
-.serviceBanner-title{
-    color:  #FFFFFF;
-    font-size: 48px;
-    font-weight: 600;
-    font-family: "Jost", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-
-}
-.serviceBanner-subtitle{
-    color: #F0F0F0;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Jost", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-
-}
-.btnTalk{
-    color: #E77A11;
-    background-color: #F0F0F0;
-    font-size: 20px;
-    padding: 6px 15px;
-    border-radius: 20px;
-    border: none;
-    font-weight: 500;
-    font-family: "Jost", serif;
+.serviceBanner-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Jost", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-.btnTalk:hover{
-    background-color: #E77A11;
-    color: #FFFFFF;
+.serviceBanner-subtitle {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btnTalk {
+  color: #e77a11;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  padding: 6px 15px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btnTalk:hover {
+  background-color: #e77a11;
+  color: #ffffff;
 }
 
-.serviceBanner-grid{
-    display: grid;
-    grid-template-columns: 4fr 4fr 4fr;
+.serviceBanner-grid {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
 }
-.service-number{
-    color: #E77A11;
-    font-size: 39px;
-    font-weight: 700;
-    font-family: "Jost", serif;
+.service-number {
+  color: #e77a11;
+  font-size: 39px;
+  font-weight: 700;
+  font-family: "Jost", serif;
   font-optical-sizing: auto;
   font-style: normal;
   margin-top: 30px;
   text-align: center;
 }
-.service-text{
-    color:  #E9ECF0;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Jost", serif;
+.service-text {
+  color: #e9ecf0;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Jost", serif;
   font-optical-sizing: auto;
   font-style: normal;
   text-align: center;
 }
-@media screen and (max-width:756px){
-  .service-banner{
+@media screen and (max-width: 756px) {
+  .service-banner {
     padding: 50px;
   }
-  .serviceBanner-grid{
+  .serviceBanner-grid {
     display: grid;
     grid-template-columns: 12fr;
+  }
 }
- 
-
-}
-@media screen and (max-width:576px){
-  .service-banner{
+@media screen and (max-width: 576px) {
+  .service-banner {
     padding: 30px;
   }
-  .serviceBanner-title{
+  .serviceBanner-title {
     font-size: 40px;
   }
-  .serviceBanner-subtitle{
+  .serviceBanner-subtitle {
     font-size: 18px;
   }
-  .btnTalk{
+  .btnTalk {
     font-size: 18px;
     padding: 6px 15px;
     border-radius: 20px;
   }
-  .service-number{
+  .service-number {
     font-size: 30px;
   }
-  .service-text{
-
+  .service-text {
     font-size: 18px;
   }
-
-
 }
-@media screen and (max-width:456px){
-  .service-banner{
+@media screen and (max-width: 456px) {
+  .service-banner {
     padding: 20px;
   }
-  .serviceBanner-title{
+  .serviceBanner-title {
     font-size: 35px;
   }
-  .serviceBanner-subtitle{
+  .serviceBanner-subtitle {
     font-size: 16px;
   }
-  .btnTalk{
+  .btnTalk {
     font-size: 16px;
     padding: 6px 15px;
     border-radius: 20px;
   }
-  .service-number{
+  .service-number {
     font-size: 25px;
   }
-  .service-text{
-
+  .service-text {
     font-size: 16px;
   }
-
 }
 
 /* Explore Our Expertise */
-.explore-container{
-    margin-top: 50px;
-    padding: 0px 80px;
-}
-.explore-container div{
-    margin-bottom: 10px;
-}
-.explore-title{
-    color: #666666;
-    font-size: 40px;
-    font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
-  font-style: normal;
-    text-align: center;
-}
-.explore-subtitle{
-    color:  #244568;
-    font-size: 24px;
-    font-weight: 500;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
 
-}
-.explore-desc{
-    color: #858585;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
-}
 /* service images */
-html, body {
+/* html, body {
     position: relative;
     width: 100%;
     height: 100%;
@@ -179,13 +135,13 @@ html, body {
   .swiper-slide {
     text-align: center;
     background: #fff;
-    /* Center slide text vertically */
+  
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  /* Image Accordions General */
+ 
   .container-general {
     padding: 75px 0;
     margin: 0 auto;
@@ -195,8 +151,7 @@ html, body {
   .gallery-wrap {
     display: flex;
     flex-direction: row;
-    /* display: grid;
-    grid-template-columns: repeat(4,3fr); */
+ 
     width: 100%;
     height: 80vh;
     gap: 50px;
@@ -214,7 +169,7 @@ html, body {
     }
   }
   
-  /* Image Accordions Effect 1 */
+
   .wrap-effect-1 {
     .item {
       &:first-of-type {
@@ -260,7 +215,7 @@ html, body {
       top: 5%;  
       left: 5%;  
       width: 80%; 
-      text-align: left; /* Ensure text aligns to the left */
+      text-align: left; 
       height:80%;
       overflow: auto;
       scrollbar-width: none;
@@ -378,8 +333,8 @@ html, body {
   .item:hover .item4Btn::before{
     content: "Know more";
 
-  }
-  @media screen and (max-width:992px){
+  } */
+/* @media screen and (max-width:992px){
     .container-general {
       padding: 75px 0;
       margin: 0 auto;
@@ -387,8 +342,7 @@ html, body {
      
     }
     .gallery-wrap {
-      /* display: flex;
-      flex-direction: row; */
+
       display: grid;
       grid-template-columns: 6fr 6fr;
       width: 100%;
@@ -409,7 +363,7 @@ html, body {
     }
     .item-content {
       font-size: 20px;
-      text-align: left; /* Ensure text aligns to the left */
+      text-align: left; 
       height:70% !important;
      
     }
@@ -425,8 +379,7 @@ html, body {
   }
   @media screen and (max-width:576px){
     .gallery-wrap {
-      /* display: flex;
-      flex-direction: row; */
+    
       display: grid;
       grid-template-columns: 1fr;
       width: 100%;
@@ -436,7 +389,7 @@ html, body {
     }
     .item-content {
       font-size: 20px;
-      text-align: left; /* Ensure text aligns to the left */
+      text-align: left; 
       height:75% !important;
      
     }
@@ -480,8 +433,7 @@ html, body {
   }
   @media screen and (max-width:456px){
     .gallery-wrap {
-      /* display: flex;
-      flex-direction: row; */
+   
       display: grid;
       grid-template-columns: 1fr;
       width: 100%;
@@ -491,7 +443,7 @@ html, body {
     }
     .item-content {
       font-size: 20px;
-      text-align: left; /* Ensure text aligns to the left */
+      text-align: left; 
       height:70% !important;
      
     }
@@ -532,201 +484,433 @@ html, body {
    
   }
 
+  } */
+.explore-container {
+  margin-top: 50px;
+  padding: 0px 80px;
+}
+.explore-container div {
+  margin-bottom: 10px;
+}
+.explore-title {
+  color: #666666;
+  font-size: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.explore-subtitle {
+  color: #244568;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.explore-desc {
+  color: #858585;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.explore-cards-part {
+  display: grid;
+  grid-template-columns: repeat(2, 6fr);
+  gap: 40px;
+  padding: 50px 80px;
+}
+.explore-card-container {
+  position: relative;
+  height: 300px;
+}
+.card-back {
+  background-color: #00458e;
+  height: 150px;
+  border-radius: 10px;
+  z-index: 0;
+}
+.explore-card-container:hover .card-back {
+  background-color: #e77a11;
+}
+.explore-card:hover .explore-cardImg img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(85%) saturate(2400%)
+    hue-rotate(5deg);
+}
+.explore-card {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  z-index: 1;
+  height: 100%;
+}
+.explore-card:hover {
+  background-color: #244568;
+  color: #ffffff;
+}
+.explore-card-title {
+  color: #244568;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+}
+.explore-card:hover .explore-card-title {
+  color: #ffffff;
+}
+.explore-card-desc {
+  color: #989898;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+}
+.explore-card:hover .explore-card-desc {
+  color: #ffffff;
+}
+.btnKnowMore {
+  border: none;
+  background-color: transparent;
+ 
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+}
+.btnKnowMore a{
+  color: #244568;
+  text-decoration: none ;
+
+}
+.explore-card:hover .btnKnowMore {
+  background-color: #e77a11;
+ 
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.explore-card:hover  .btnKnowMore a{
+  color: white;
+}
+@media screen and (max-width: 1100px) {
+  .explore-card-container {
+    position: relative;
+    height: 350px;
   }
-  
-  /* contact */
-  .contact-container {
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-    margin-top: 0px;
-    padding: 0px 80px;
-    padding-bottom: 50px;
-    gap: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .explore-card-container {
+    position: static;
+  }
+  .card-back {
+    display: none;
+  }
+  .explore-card {
+    position: static;
+  }
+  .explore-card:hover {
+    background-color: white;
+   
+  }
+  .explore-card:hover .explore-card-title {
+    color: #244568
+  }
+  .explore-card:hover .explore-card-desc {
+    color: #989898;
+  }
+  .explore-card:hover .btnKnowMore{
+    border: none;
+    background-color: transparent;
+    padding: 0px 0px;
+    border-radius: 0px;
+  }
+  .explore-card:hover .btnKnowMore a{
     
-  }
-  .contact-left{
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    display: flex;
-  }
-  .contact-right{
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-  }
-  .contact-left div {
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin-bottom: 20px;
-  }
-  .build-text {
     color: #244568;
-    font-size: 36px;
-    font-weight: 600;
-    text-align: justify;
+   
   }
-  .build-desc {
-    color: #506a86;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: justify;
+}
+@media screen and (max-width: 992px) {
+  .explore-card-container {
+    position: relative;
+    height: auto;
   }
-  .contact-details {
-    color: #244568;
-    text-align: justify;
+  .explore-cards-part {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    gap: 30px;
+    padding: 50px 40px;
+  }
+}
+@media screen and (max-width: 856px) {
+
+  .explore-cards-part {
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 20px;
+    padding: 50px 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .explore-container {
+    margin-top: 50px;
+    padding: 0px 50px;
   }
 
-  
-  .input-part{
-    border-bottom: 1px solid #858585;
-    padding-top: 10px;
+  .explore-title {
+    font-size: 35px;
+  }
+  .explore-subtitle {
+    font-size: 20px;
+  }
+  .explore-desc {
+    font-size: 16px;
+  }
+  .explore-card {
+    text-align: center;
+  }
+  .explore-card-title {
+   
+    font-size: 25px;
   
   }
-  .label-name{
-    color: #383838;
+  
+  .explore-card-desc {
+   
+    font-size: 16px;
+  
+  }
+ 
+  .btnKnowMore {
+ 
+    font-size: 16px;
+
+  }
+  .explore-cardImg img{
+    width: 50px;
+  }
+  
+}
+@media screen and (max-width: 456px) {
+  .explore-container {
+    margin-top: 50px;
+    padding: 0px 20px;
+  }
+
+  .explore-title {
+    font-size: 30px;
+  }
+  .explore-subtitle {
+    font-size: 18px;
+  }
+  .explore-desc {
     font-size: 14px;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
   }
-  .input-part input {
-    border: none;
-    color: #858585;
-    padding-bottom: 10px;
-    outline: none;
+  .explore-card-title {
+   
+    font-size: 20px;
+  
   }
   
-  .input-part input::placeholder{
-    color: #858585;
-    font-weight: 300;
+  .explore-card-desc {
+   
     font-size: 14px;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  .input-part span {
-    color: #383838;
-  }
   
-  .form-container{
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 0px 3px 3px #00000017;
-    width: 70%;
-    font-family: jost;
-    src: url(../Font/Jost-Italic-VariableFont_wght.ttf);
   }
-  
-  
-  .form-container div {
-    margin-bottom: 20px;
+ 
+  .btnKnowMore {
+ 
+    font-size: 14px;
+
   }
-  .form-title {
-    color: #506a86;
-    font-size: 24px;
-    font-weight: 500;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  .formbtn {
-    background-color: #e77a11;
-    color: #f0f0f0;
+}
+/* contact */
+.contact-container {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  margin-top: 0px;
+  padding: 0px 80px;
+  padding-bottom: 50px;
+  gap: 50px;
+}
+.contact-left {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+.contact-right {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.contact-left div {
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.build-text {
+  color: #244568;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: justify;
+}
+.build-desc {
+  color: #506a86;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+.contact-details {
+  color: #244568;
+  text-align: justify;
+}
+
+.input-part {
+  border-bottom: 1px solid #858585;
+  padding-top: 10px;
+}
+.label-name {
+  color: #383838;
+  font-size: 14px;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.input-part input {
+  border: none;
+  color: #858585;
+  padding-bottom: 10px;
+  outline: none;
+}
+
+.input-part input::placeholder {
+  color: #858585;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.input-part span {
+  color: #383838;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px 3px #00000017;
+  width: 70%;
+  font-family: jost;
+  src: url(../Font/Jost-Italic-VariableFont_wght.ttf);
+}
+
+.form-container div {
+  margin-bottom: 20px;
+}
+.form-title {
+  color: #506a86;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Jost", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.formbtn {
+  background-color: #e77a11;
+  color: #f0f0f0;
+  width: 100%;
+}
+.formbtn:hover {
+  background-color: #d26f0f;
+  color: #f0f0f0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .form-container {
     width: 100%;
   }
-  .formbtn:hover {
-    background-color: #d26f0f;
-    color: #f0f0f0;
+}
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: 12fr;
   }
-  
-  @media screen and (min-width: 1024px) and (max-width: 1200px){
-    .form-container{
-      width: 100%;
-    }
-  
-  
-   }
-  @media screen and (max-width:1024px){
-    .contact-container{
-      display: grid;
-      grid-template-columns: 12fr;
-      
-    }
-    .contact-right{
-      justify-content: center;
-      align-items: center;
-      justify-items: center;
-    }
-    .contact-left{
-      justify-content: center;
-      align-items: center;
-      justify-items: center;
+  .contact-right {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
-  
+  .contact-left {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
-  @media screen and (max-width:992px){
-    .contact-container{
-      display: grid;
-      grid-template-columns: 12fr;
-      
-    }
-    .form-container{
-      width: 70%;
-      margin-top: 0px;
-    }
-    .contact-left{
-      justify-content: center;
-      align-items: center;
-      justify-items: center;
+}
+@media screen and (max-width: 992px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: 12fr;
   }
-    
+  .form-container {
+    width: 70%;
+    margin-top: 0px;
   }
-  @media screen and (max-width:756px){
-    .form-container{
-      width: 100%;
-      margin-top: 0px;
-    }
+  .contact-left {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
-  @media screen and (max-width:576px){
-    .form-container{
-      width: 100%;
-      margin-top: 0px;
-    }
+}
+@media screen and (max-width: 756px) {
+  .form-container {
+    width: 100%;
+    margin-top: 0px;
   }
-  @media screen and (max-width:520px){
-    .build-text{
-      font-size: 28px;
-    }
-  
+}
+@media screen and (max-width: 576px) {
+  .form-container {
+    width: 100%;
+    margin-top: 0px;
   }
-  @media screen and (max-width:475px){
-    .contact-container {
-      display: grid;
-      grid-template-columns:12fr;
-      margin-top: 0px;
-      padding: 30px;
-    }
-    .build-text{
-      font-size: 25px;
-    }
-    .build-desc{
-      font-size: 16px;
-    } 
-    .contact-details{
-      font-size: 16px;
-    }
-    .form-title{
-      font-size: 20px;
-    }
-    .contact-right{
-      margin-top: -50px;
-    }
-    .formbtn {
-      font-size: 13px ;
-    }
+}
+@media screen and (max-width: 520px) {
+  .build-text {
+    font-size: 28px;
   }
-
-  
+}
+@media screen and (max-width: 475px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: 12fr;
+    margin-top: 0px;
+    padding: 30px;
+  }
+  .build-text {
+    font-size: 25px;
+  }
+  .build-desc {
+    font-size: 16px;
+  }
+  .contact-details {
+    font-size: 16px;
+  }
+  .form-title {
+    font-size: 20px;
+  }
+  .contact-right {
+    margin-top: -50px;
+  }
+  .formbtn {
+    font-size: 13px;
+  }
+}
