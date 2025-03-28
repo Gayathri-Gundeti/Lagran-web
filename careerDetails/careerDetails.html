@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Details Page</title>
+        <!-- Bootstrap and Bootstrap Icons CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+       <link rel="stylesheet" href="./careerDetails.css">
+        <!-- Cormorant Garamond Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+        <!-- Jost Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="careerBanner">
+            <div>
+             <div class="careerTitle">Career</div>
+             <div class="careerSubtitle">Don't work for us, work with us.
+                We’re here to support your journey—reach out anytime!</div>
+            </div>
+         </div>
+         <div class="container careerDetailsContainer">
+            <div>
+                <div class="detailsjobTitle">Dot Net Developers</div>
+                <div class="detailsjobType">Full-time</div>
+            </div>
+            <div>
+                <div class="detailsSubtitle">Highlights</div>
+                <div class="detailsSubcontainer">
+                    <span>Position: DotNet Developer 
+                    </span>
+                    <span>No. Of Open Position: 1
+                    </span>
+                    <span>Experience : 3+ Yrs
+                    </span>
+                    <span>Job Location : Gurgaon
+                    </span>
+                    <span>Qualification : Any Degree
+                    </span>
+                    <span>Position Type : Contract (6 Months)
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div class="detailsSubtitle">Skills:</div>
+                <div class="detailsSubcontainer">
+                    <span>- 3+ yrs of hands-on exp in .Net
+                    </span>
+                    <span>- Must have worked on .net, Web API, .net core, MVC, sql server, jquery.
+                    </span>
+                    <span>- Excellent communication
+                        </span>
+                </div>
+            </div>
+            <div>
+                <div class="detailsSubtitle">Responsibilities:</div>
+                <div class="detailsSubcontainer">
+                    <span>- One will have to implement, develop, according to corporate coding standards.
+                    </span>
+                    <span>- A knack for writing clean, readable and easily maintain able code.
+                    </span>
+                    <span>- Coordinate with other team members to ensure that all TMs are in sync.
+                    </span>
+                    <span>- Understanding of fundamentals design principles for building a scalable application.
+                    </span>
+                    <span>- Required to attend the morning/client/conference calls.
+                    </span>
+                    <span>- Responsible for the quality of code and applications.</span>
+                </div>
+            </div>
+            <div class="detailsApply">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply Now<span class="bi bi-arrow-up-right"></span>
+                  </button>
+                
+            </div>
+
+         </div>
+    </div>
+  <!-- Modal -->
+  <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 titleApply" id="exampleModalLabel">APPLY JOB</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="modalFormField">
+                <label>FULL NAME</label>
+               <div> <span class="bi bi-person me-1"></span><input type="text" placeholder="Enter your full name"></div>
+            </div>
+            <div class="modalFormField">
+                <label>YOUR EMAIL</label>
+               <div> <span  class="bi bi-envelope me-1"></span><input type="text" placeholder="Enter your email id"></div>
+            </div>
+            <div class="modalFormField">
+                <label>PHONE NUMBER</label>
+               <div> <span  class="bi bi-telephone me-1"></span><input type="text" placeholder="Enter your phone number"></div>
+            </div>
+            <div class="modalFormField">
+                <label>SELECT ROLE</label>
+               <div> <select><option>Dot Net Developer</option><option>Java Developer</option></select></div>
+            </div>
+            <div class="modalFormField">
+                <label>UPLOAD YOUR RESUME</label>
+               <div> <input type="file" ></div>
+            </div>
+            <div class="modalFormField">
+                <label>YOUR MESSAGE</label>
+               <div> <span  class="bi bi-chat-left-dots me-1"></span><input type="text" placeholder="Enter your message"></div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button">SUBMIT</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(232, 230, 230);
+}
+
+.careerBanner{
+    background-image: url("../images/blogs-careers/Careers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 200px;
+    padding: 20px;
+}
+.careerTitle{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+.careerSubtitle{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+.careerCardPart{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.careerCard{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+
+}
+.jobTitle{
+    color: #E77A11;
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+.jobType{
+    color: #858585;
+    border: 1px solid #858585;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 3px 8px;
+    display: inline-block;
+}
+.jobHighlights{
+    color: #244568;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.jobOpenings{
+    color: #858585;
+    font-size: 16px;
+    font-weight: 400;
+}
+.jobExp{
+    color: #858585;
+    font-size: 16px;
+    font-weight: 400;
+}
+.jobApply a{
+    text-decoration: none;
+    color: #244568;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.jobApply a:hover{
+    background-color: #E77A11;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:992px){
+    .careerCardPart{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+}
+@media screen and (max-width:576px){
+    .careerTitle{
+        font-size: 35px;
+    }
+    .careerSubtitle {
+        font-size: 18px;
+    }
+    .careerCardPart{
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+    .jobTitle {
+        font-size: 20px;
+    }
+    .jobHighlights {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:456px){
+    .jobTitle {
+        font-size: 18px;
+    }
+    .jobHighlights {
+        font-size: 16px;
+    }
+    .jobOpenings {
+        font-size: 14px;
+    }
+    .jobExp{
+        font-size: 14px;
+    }
+    .jobApply a {
+        font-size: 14px;
+    }
+}

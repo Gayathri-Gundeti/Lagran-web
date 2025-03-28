@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(232, 230, 230);
+}
+
+.careerBanner{
+    background-image: url("../images/blogs-careers/Careers.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 200px;
+    padding: 20px;
+}
+.careerTitle{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+.careerSubtitle{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+.careerDetailsContainer{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.careerDetailsContainer div{
+    margin-bottom: 20px;
+}
+.detailsjobTitle{
+    color: #244568;
+    font-size: 24px;
+    font-weight: 500;
+}
+.detailsjobType{
+    font-size: 14px;
+    font-weight: 400;
+    color: #858585;
+    border: 1px solid #858585;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.detailsSubtitle{
+    color: #244568;
+    font-size: 16px;
+    font-weight: 500;
+}
+.detailsSubcontainer span{
+    display: block;
+    color: #858585;
+    font-size: 16px;
+    font-weight: 400;
+}
+.detailsApply{
+   position: absolute;
+   bottom: 0px;
+   right: 10px;
+}
+.detailsApply button{
+    text-decoration: none;
+    color: #244568;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+  
+    
+}
+.detailsApply button:hover{
+    background-color: #E77A11;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.modal-header{
+    border-bottom: none;
+}
+.titleApply{
+    color: #506A86;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.modal-footer{
+    border-top: none;
+}
+.modalFormField {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.modalFormField label{
+    color: #383838;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+.modalFormField  input{
+    border: none;
+    outline: none;
+
+
+}
+.modalFormField select{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.modalFormField  div{
+    border-bottom: 1px solid #D0D0D0;
+    margin-bottom: 20px;
+}
+.modalFormField  input::placeholder{
+    color: #858585;
+    font-size: 14px;
+    font-weight: 300;
+}
+.modal-footer button{
+    width: 100%;
+    background-color: #E77A11;
+    color: #F0F0F0;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+@media screen and (max-width:576px){
+    .careerTitle{
+        font-size: 35px;
+    }
+    .careerSubtitle {
+        font-size: 18px;
+    }
+    .detailsjobTitle {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:456px){
+    .detailsjobTitle {
+        font-size: 18px;
+    }
+    .modalFormField  div{
+        margin-bottom: 10px;
+    }
+    .modalFormField label{
+        
+        font-size: 12px;
+       
+    
+    }
+    .modalFormField  input::placeholder{
+     
+        font-size: 12px;
+    }
+}

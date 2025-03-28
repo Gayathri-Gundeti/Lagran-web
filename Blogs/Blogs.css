@@ -1,0 +1,164 @@
+.blogBanner {
+  background-image: url("../images/blogs-careers/Blogs.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 200px;
+  padding: 20px;
+}
+.bannerTitle {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.bannerSubtitle {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.blogCardPart {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.blogCard {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: 0px;
+  height: 100%;
+}
+.blogCardImg {
+  width: 100%;
+  height: 100%;
+}
+.blogCardImg img {
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+}
+.blogCardRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.blogCartTitle > :first-child {
+  color: #244568;
+  font-size: 16px;
+  font-weight: 500;
+ 
+}
+.blogCartTitle > :last-child {
+  color: #244568;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.blogCartSubtitle {
+  color: #858585;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 10px;
+}
+.blogWatchContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.blogHeart > :first-child {
+  color: #e77a11;
+}
+.blogHeart > :last-child {
+  color: #244568;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.blogWatch {
+  color: #244568;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.blogWatch:hover {
+  background-color: #e77a11;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .blogCardPart {
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+    .bannerTitle{
+        font-size: 35px;
+    }
+    .bannerSubtitle{
+        font-size: 18px;
+    }
+  .blogCard {
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 10px;
+  }
+  .blogCardImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .blogCartTitle > :last-child {
+    font-size: 20px;
+  }
+  .blogCartSubtitle {
+    font-size: 16px;
+  }
+  .blogHeart > :last-child {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 456px) {
+  .blogCartTitle > :last-child {
+    font-size: 20px;
+  }
+  .blogCartSubtitle {
+    font-size: 14px;
+  }
+  .blogWatch {
+    font-size: 14px;
+  }
+  .blogHeart > :last-child {
+    font-size: 14px;
+  }
+  .blogHeart > :first-child {
+    font-size: 14px;
+}
+}
